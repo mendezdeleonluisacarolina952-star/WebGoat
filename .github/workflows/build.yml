@@ -40,6 +40,4 @@ jobs:
           mvn -B verify
           org.sonarsource.scanner.maven:sonar-maven-plugin:sonar
           -Dsonar.projectKey=mendezdeleonluisacarolina952-star_WebGoat
-          -Dsonar.organization=mendezdeleonluisacarolina952-star
           -Dsonar.token=${SONAR_TOKEN}
-
