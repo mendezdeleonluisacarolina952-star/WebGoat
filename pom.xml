@@ -62,7 +62,7 @@
 
   <properties>
   <sonar.organization>mendezdeleonluisacarolina952-star</sonar.organization>
-</properties>
+  </properties>
 
   <dependencyManagement>
     <dependencies>
