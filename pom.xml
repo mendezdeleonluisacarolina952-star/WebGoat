@@ -95,6 +95,8 @@
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
     <!-- rest-assured is no longer managed by the Spring Boot 4 BOM -->
     <rest-assured.version>6.0.1</rest-assured.version>
+    <!-- SonarQube Cloud -->
+    <sonar.organization>mendezdeleonluisacarolina952-star</sonar.organization>
     <spotless-maven-plugin.version>3.10.2</spotless-maven-plugin.version>
     <waittimeForServerStart>60</waittimeForServerStart>
     <webdriver.version>6.3.4</webdriver.version>
@@ -109,9 +111,6 @@
     <xstream.version>1.4.5</xstream.version>
     <!-- do not update necessary for lesson -->
     <zxcvbn.version>1.9.0</zxcvbn.version>
-
-    <!-- SonarQube Cloud -->
-    <sonar.organization>mendezdeleonluisacarolina952-star</sonar.organization>
   </properties>
 
   <dependencyManagement>
