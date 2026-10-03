@@ -61,57 +61,8 @@
   </issueManagement>
 
   <properties>
-    <!-- Shared properties with plugins and version numbers across submodules-->
-    <asciidoctorj.version>3.0.1</asciidoctorj.version>
-    <bootstrap.version>5.3.5</bootstrap.version>
-    <cglib.version>3.3.0</cglib.version>
-    <!-- do not update necessary for lesson -->
-    <checkstyle.version>3.6.0</checkstyle.version>
-    <commons-collections.version>3.2.1</commons-collections.version>
-    <commons-compress.version>1.28.0</commons-compress.version>
-    <commons-io.version>2.22.0</commons-io.version>
-    <commons-lang3.version>3.14.0</commons-lang3.version>
-    <commons-text.version>1.15.0</commons-text.version>
-    <guava.version>33.7.1-jre</guava.version>
-    <jacoco.version>0.8.11</jacoco.version>
-    <java.version>25</java.version>
-    <jaxb.version>2.3.1</jaxb.version>
-    <jjwt.version>0.9.1</jjwt.version>
-    <jose4j.version>0.9.6</jose4j.version>
-    <jquery.version>4.0.0</jquery.version>
-    <jsoup.version>1.23.2</jsoup.version>
-    <maven-compiler-plugin.version>3.16.0</maven-compiler-plugin.version>
-    <maven-failsafe-plugin.version>3.5.6</maven-failsafe-plugin.version>
-    <maven-jar-plugin.version>3.5.0</maven-jar-plugin.version>
-    <maven-javadoc-plugin.version>3.12.0</maven-javadoc-plugin.version>
-    <maven-source-plugin.version>3.4.0</maven-source-plugin.version>
-    <maven-surefire-plugin.version>3.6.0</maven-surefire-plugin.version>
-    <maven.compiler.proc>full</maven.compiler.proc>
-    <maven.compiler.source>${java.version}</maven.compiler.source>
-    <maven.compiler.target>${java.version}</maven.compiler.target>
-    <pmd.version>3.15.0</pmd.version>
-    <!-- Use UTF-8 Encoding -->
-    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-    <!-- rest-assured is no longer managed by the Spring Boot 4 BOM; 6.x is built for the
-         Groovy 5 that Spring Boot 4 ships (5.x targets Groovy 4 and fails at runtime). -->
-    <rest-assured.version>6.0.1</rest-assured.version>
-    <spotless-maven-plugin.version>3.10.2</spotless-maven-plugin.version>
-    <waittimeForServerStart>60</waittimeForServerStart>
-    <webdriver.version>6.3.4</webdriver.version>
-    <webgoat.context>/WebGoat</webgoat.context>
-    <webgoat.port>8080</webgoat.port>
-    <webgoat.sslenabled>false</webgoat.sslenabled>
-    <!-- Spring Boot 4 resolves version-less webjars URLs via webjars-locator-lite -->
-    <webjars-locator-lite.version>1.1.4</webjars-locator-lite.version>
-    <webwolf.context>/WebWolf</webwolf.context>
-    <webwolf.port>9090</webwolf.port>
-    <wiremock.version>3.13.2</wiremock.version>
-    <xml-resolver.version>1.2</xml-resolver.version>
-    <xstream.version>1.4.5</xstream.version>
-    <!-- do not update necessary for lesson -->
-    <zxcvbn.version>1.9.0</zxcvbn.version>
-  </properties>
+  <sonar.organization>mendezdeleonluisacarolina952-star</sonar.organization>
+</properties>
 
   <dependencyManagement>
     <dependencies>
